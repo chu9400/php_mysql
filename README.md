@@ -1,4 +1,4 @@
-# php_mysql
+# php_mysql 정보
 
 ### php 문자열
 
