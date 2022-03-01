@@ -31,6 +31,19 @@
         </body>
         * 파라미터 배열 선언시 대소문자 구분함.
 
+    2. 링크 클릭시 해당 파라미터 값 출력하기
+        예)
+            <ol>
+                <li><a href="index.php?id=HTML">HTML</a></li>
+                <li><a href="index.php?id=CSS">CSS</a></li>
+                <li><a href="index.php?id=Javascript">Javascript</a></li>
+            </ol>
+            <h2>
+                <?php
+                    echo $_GET['id'];
+                ?>
+            </h2>
+
 </body>
 
 ### php의 문자열 관련2

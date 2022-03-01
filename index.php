@@ -7,7 +7,18 @@
     <title>PHP_MySQL</title>
 </head>
 <body>
-    <?php echo $_GET['a']; ?>님 안녕,
-    <?php echo $_GET['b']; ?>님도 안녕
+    <h1>WEB</h1>
+    <ol>
+        <li><a href="index.php?id=HTML">HTML</a></li>
+        <li><a href="index.php?id=CSS">CSS</a></li>
+        <li><a href="index.php?id=Javascript">Javascript</a></li>
+    </ol>
+    <h2>
+        <?php 
+            echo $_GET['id'];
+        ?>
+    </h2>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing 
 </body>
 </html>
