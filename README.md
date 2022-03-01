@@ -23,7 +23,7 @@
 ### php URL 파라미터
 
     1. 기본 사용법
-        index.php?a=test&b=test02 : 주소창에 url 파라미터 값 입력.
+        주소/index.php?a=test&b=test02 : 주소창에 url 파라미터 값 입력.
 
         <body>
             <?php echo $_GET['a']; ?>님 안녕,
