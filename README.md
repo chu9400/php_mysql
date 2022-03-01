@@ -1,6 +1,8 @@
-# php_mysql 정보
+# PHP_MySQL 정보
 
-#### php 문자열
+## PHP
+
+### php 문자열
 
     1.
         echo "Hello \"W\"orld"
@@ -14,13 +16,13 @@
         strlen() 함수사용
         예) echo strlen("Hello World");
 
-#### php 변수
+### php 변수
 
     1. 문자열 도중에 변수 추가하기
         $name = "test";
         echo "asdasdasd".$name."asdasdasd";
 
-#### php URL 파라미터
+### php URL 파라미터
 
     1. 기본 사용법
         주소/index.php?a=test&b=test02 : 주소창에 url 파라미터 값 입력.
@@ -46,4 +48,6 @@
 
 </body>
 
-#### php의 문자열 관련2
+## MySQL
+
+### MySQL 정보
