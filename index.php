@@ -8,17 +8,23 @@
 </head>
 <body>
     <h1>WEB</h1>
-    <ol>
-        <li><a href="index.php?id=HTML">HTML</a></li>
-        <li><a href="index.php?id=CSS">CSS</a></li>
-        <li><a href="index.php?id=Javascript">Javascript</a></li>
-    </ol>
-    <h2>
-        <?php 
-            echo $_GET['id'];
-        ?>
-    </h2>
+    <h2>그냥</h2>
+    <?php 
+        $str = "asdasdasdasdasdasd
 
-    Lorem ipsum dolor sit amet consectetur adipisicing 
+
+            asdasdasdasd end
+            ";
+        echo $str; 
+    ?>
+    <h2>그냥끝</h2>
+    <br />
+    <br />
+    <h2>함수 사용</h2>    
+    <?php 
+        echo nl2br($str);
+    ?>
+    <h2>함수 사용 끝</h2> 
+
 </body>
 </html>
