@@ -20,4 +20,17 @@
         $name = "test";
         echo "asdasdasd".$name."asdasdasd";
 
+### php URL 파라미터
+
+    1. 기본 사용법
+        index.php?a=test&b=test02 : 주소창에 url 파라미터 값 입력.
+
+        <body>
+            <?php echo $_GET['a']; ?>님 안녕,
+            <?php echo $_GET['b']; ?>님도 안녕
+        </body>
+        * 파라미터 배열 선언시 대소문자 구분함.
+
+</body>
+
 ### php의 문자열 관련2

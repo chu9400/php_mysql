@@ -7,12 +7,7 @@
     <title>PHP_MySQL</title>
 </head>
 <body>
-    <?php
-        echo strlen("Hello World");
-
-        $name = 100;
-
-        echo "test".$name."asdasdasd";
-    ?>
+    <?php echo $_GET['a']; ?>님 안녕,
+    <?php echo $_GET['b']; ?>님도 안녕
 </body>
 </html>
