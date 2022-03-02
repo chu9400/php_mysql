@@ -68,14 +68,14 @@
     ?>
     <h2>함수 사용 끝</h2>
 
-    2. 파일(문자) 불러오기 함수 (file_get_contents함수)
+    2.
+        file_get_contents 함수 : 경로 지정한 파일내의 문자를 출력
+            예) file_get_contents("data/".$_GET['id'].".txt");
 
-        file_get_contents("data/".$_GET['id'].".txt");
-
-    3.
-        var_dump() 함수 : 데이터 타입 및 해당 데이터의 정보 출력
-        count() 함수    : 배열의 개수를 출력
-        scandir() 함수  : 디렉터리의 안의 파일들을 배열로 가져옴
+        var_dump 함수 : 데이터 타입 및 해당 데이터의 정보 출력
+        count 함수    : 배열의 개수를 출력
+        scandir 함수  : 디렉터리의 안의 파일들을 배열로 가져옴
+            예) scandir('./data');
 
 ## MySQL
 

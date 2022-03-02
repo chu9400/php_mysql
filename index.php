@@ -13,6 +13,8 @@
         <?php 
             $list = scandir('./data');
             var_dump($list);
+            echo '<br />';
+            print_r($list);
             
         ?>
     </ol>
