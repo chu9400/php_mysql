@@ -46,7 +46,7 @@
                 ?>
             </h2>
 
-### 함수 사용
+### 함수 기본
 
     1. 입력대로 나타내는 함수 사용(nl2br 함수)
 
@@ -67,6 +67,10 @@
         echo nl2br($str);
     ?>
     <h2>함수 사용 끝</h2>
+
+    2. 파일 불러오기 함수 (file_get_contents함수)
+
+        file_get_contents("data/".$_GET['id'].".txt");
 
 ## MySQL
 
